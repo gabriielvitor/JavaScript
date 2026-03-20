@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Script</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(159, 151, 151);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.5em;
+            
+        }
+
+        h1 {
+            color: blueviolet;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>    
+        <h1>Olá, Mundo!</h1>
+        <p>Já me livrei da maldição</p>
+    </main>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //String + Number.parseINt ou Float transforma em número ou String para transformar em string
+        var n2 = Number(window.prompt('Digite outro número: ')) //String
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //Concatenação
+        // + (number + number) para adição
+        // + (string + string) para concatenção
+        // Template strings
+
+        // s.length = quantos caracteres a string tem
+        // s.toUpperCase(maiusculas)
+        // s.toLowerCase(minusculas)
+    </script>
+</body>
+</html>
